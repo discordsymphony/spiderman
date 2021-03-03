@@ -103,3 +103,4 @@ class RefineAnchor:
                     return 'http://' + self.get_url() + '/' + self.get_anchor()
             except IndexError:
                 return False
+        return False
